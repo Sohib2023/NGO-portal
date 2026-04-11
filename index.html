@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGO Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="np">NGO Portal</h1>
+        <nav>
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#ngos">NGOs</a></li>
+                <li><a href="#donate">Donate</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#justdial">JustDial</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to the NGO Portal</h2>
+            <p>Connecting you with NGOs in Bareilly, Uttar Pradesh.</p>
+        </section>
+
+        <section id="ngos">
+            <h2>NGOs</h2>
+            <div class="ngo">
+                <h3>NGO Name: XYZ</h3>
+                <p>Location: Chand Masjid, Qila Flyover, Bareilly, Uttar Pradesh</p>
+                <p>Mission: Provide education to underprivileged children.</p>
+                <p>Activities: School programs, community workshops, etc.</p>
+                <p>Contact: xyz@example.com, +91-XXXXXXXXXX</p>
+                <a href="https://www.xyzngo.org">Visit Website</a>
+                <a href="https://www.justdial.com/Bareilly/XYZ-NGO">JustDial XYZ</a>
+            </div>
+            <div class="ngo">
+                <h3>NGO Name: ABC</h3>
+                <p>Location: C 33 Rajendra Nagar, Bareilly, Uttar Pradesh 243003</p>
+                <p>Mission: Support women's empowerment and health.</p>
+                <p>Activities: Health camps, skill training, awareness programs.</p>
+                <p>Contact: abc@example.com, +91-XXXXXXXXXX</p>
+                <a href="https://www.abcsociety.org">Visit Website</a>
+                <a href="https://www.justdial.com/Bareilly/ABC-Society">JustDial ABC</a>
+            </div>
+            <div class="ngo">
+                <h3>NGO Name: DEF</h3>
+                <p>Location: Faridpur, Bareilly, Uttar Pradesh</p>
+                <p>Mission: Environmental conservation and awareness.</p>
+                <p>Activities: Tree plantation drives, clean-up campaigns, workshops.</p>
+                <p>Contact: def@example.com, +91-XXXXXXXXXX</p>
+                <a href="https://www.defngo.org">Visit Website</a>
+                <a href="https://www.justdial.com/Bareilly/DEF-NGO">JustDial DEF</a>
+            </div>
+            <div class="ngo">
+                <h3>NGO Name: Subhansh Sewa Trust</h3>
+                <p>Location: Bareilly, Uttar Pradesh</p>
+                <p>Mission: Empowers rural communities through healthcare, education, and social initiatives.</p>
+                <p>Activities: Healthcare services, educational programs, and community development.</p>
+                <p>Contact: subhansh@example.com, +91-XXXXXXXXXX</p>
+                <a href="https://www.subhanshsewa.org">Visit Website</a>
+                <a href="https://www.justdial.com/Bareilly/Subhansh-Sewa-Trust">JustDial Subhansh Sewa Trust</a>
+            </div>
+            <div class="ngo">
+                <h3>NGO Name: Indian Association For The Advancement Of Veterinary Research</h3>
+                <p>Location: Bareilly, Uttar Pradesh</p>
+                <p>Mission: Works primarily in the domain of Technology, Food & Nutrition, and Animal & Wildlife.</p>
+                <p>Activities: Veterinary research, animal welfare programs, and wildlife conservation.</p>
+                <p>Contact: iavvet@example.com, +91-XXXXXXXXXX</p>
+                <a href="https://www.iavvet.org">Visit Website</a>
+                <a href="https://www.justdial.com/Bareilly/IAVET">JustDial IAVET</a>
+            </div>
+            <div class="ngo">
+                <h3>NGO Name: Rajshree Educational Trust</h3>
+                <p>Location: Bareilly, Uttar Pradesh</p>
+                <p>Mission: Focuses on education, health, and food & nutrition.</p>
+                <p>Activities: Running schools, health camps, and nutrition programs.</p>
+                <p>Contact: rajshree@example.com, +91-XXXXXXXXXX</p>
+                <a href="https://www.rajshreeedu.org">Visit Website</a>
+                <a href="https://www.justdial.com/Bareilly/Rajshree-Educational-Trust">JustDial Rajshree Educational Trust</a>
+            </div>
+            <!-- Add more NGO sections here -->
+        </section>
+
+        <section id="donate">
+            <h2>Donate</h2>
+            <form action="donate.html" method="post">
+                <label for="ngo">Select NGO:</label>
+                <select id="ngo" name="ngo">
+                    <option value="xyz">XYZ</option>
+                    <option value="abc">ABC</option>
+                    <option value="def">DEF</option>
+                    <option value="subhansh">Subhansh Sewa Trust</option>
+                    <option value="iavvet">Indian Association For The Advancement Of Veterinary Research</option>
+                    <option value="rajshree">Rajshree Educational Trust</option>
+                    <!-- Add more NGOs here -->
+                </select>
+                <label for="type">Donation Type:</label>
+                <select id="type" name="type">
+                    <option value="clothes">Clothes</option>
+                    <option value="food">Food</option>
+                    <option value="money">Money</option>
+                </select>
+                <label for="amount">Donation Amount (if money):</label>
+                <input type="number" id="amount" name="amount" min="1">
+                <button type="submit">Donate</button>
+            </form>
+        </section>
+
+        <section id="justdial">
+            <h2>JustDial</h2>
+            <p>Visit JustDial to find more NGOs near Bareilly:</p>
+            <a href="https://www.justdial.com/Bareilly/NGOs">JustDial NGOs</a>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: support@ngoportal.com</p>
+            <p>Phone: +91-XXXXXXXXXX</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 NGO Portal. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
