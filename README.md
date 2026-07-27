@@ -133,7 +133,7 @@ This project is licensed under the MIT License.
 
 **Sohib Khan**
 
-- GitHub: https://github.com/soib2023
+- GitHub: https://github.com/sohib2023
 - LinkedIn: https://linkedin.com/in/https://www.linkedin.com/in/sohib-khan-236794304/
 ---
 
