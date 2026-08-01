@@ -2,6 +2,8 @@
 
 A full-stack web application that connects NGOs with volunteers and donors through a simple, secure, and user-friendly platform. The portal helps NGOs manage campaigns, donations, events, and volunteer registrations efficiently.
 
+Live Demo https://sohib2023.github.io/NGO-portal/
+
 ## 🚀 Features
 
 - 👤 User Authentication (Login & Registration)
